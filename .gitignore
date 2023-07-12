@@ -1,0 +1,43 @@
+# Arquivos de compilação
+*.pyc
+*.pyo
+__pycache__/
+
+# Ambientes virtuais
+venv/
+env/
+.env
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache
+*.cache
+
+# Arquivos gerados pelo IDE
+.idea/
+.vscode/
+
+# Dependências instaladas
+# Use o nome do gerenciador de pacotes que você está usando
+# Por exemplo, para pipenv:
+# Pipenv files
+Pipfile
+Pipfile.lock
+
+# Arquivos de saída de dados
+output/
+
+# Arquivos de configuração locais
+*.ini
+*.conf
+*.cfg
+
+# Arquivos sensíveis
+# Certifique-se de adicionar arquivos sensíveis a esta seção
+secrets.yaml
+secrets.json
+
+# Outros
+.DS_Store
+Thumbs.db
